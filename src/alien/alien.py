@@ -32,3 +32,8 @@ class Alien():
 def new_aliens_collection(start_positions: list[tuple[int, int]]) -> list[Alien]:
         return [Alien(x,y) for x, y in start_positions]
 
+if __name__ == "__main__":
+    alien_nicki = Alien(5,6)
+    aliens = new_aliens_collection([(4, 7), (-1, 0)])
+    for alien in aliens: 
+        print(alien.x, alien.y)
