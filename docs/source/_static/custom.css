@@ -1,0 +1,90 @@
+/* --- ALIEN THEME FOR SPHINX --- */
+
+/* 1. Fuentes Sci-Fi */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Orbitron:wght@500&display=swap');
+
+/* 2. Cuerpo Principal */
+body {
+    background-color: #050505;  /* Negro profundo */
+    color: #cfcfcf;             /* Gris claro */
+    font-family: 'Fira Code', monospace;
+}
+
+/* 3. Títulos (H1, H2...) */
+h1, h2, h3, h4 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00ff41;  /* Verde Matrix / Alien */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 1px solid #004411;
+    margin-bottom: 1rem;
+}
+
+/* 4. Enlaces */
+a {
+    color: #00bcd4; /* Cian futurista */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+a:hover {
+    color: #00ff41;
+    text-shadow: 0 0 8px rgba(0, 255, 65, 0.6);
+}
+
+/* 5. Bloques de Código */
+pre, .highlight {
+    background-color: #0f0f0f !important;
+    border: 1px solid #333;
+    border-left: 4px solid #00ff41; /* Borde verde neón */
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* 6. Barra Lateral (Sidebar) */
+div.sphinxsidebar {
+    background-color: #0a0a0a;
+    border-right: 1px solid #333;
+}
+div.sphinxsidebar h3 {
+    color: #00bcd4;
+    font-family: 'Orbitron', sans-serif;
+}
+div.sphinxsidebar a {
+    color: #aaa;
+}
+div.sphinxsidebar a:hover {
+    color: #00ff41;
+    background-color: #111;
+}
+
+/* 7. Tablas */
+table.docutils {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.05);
+}
+table.docutils th {
+    background-color: #111;
+    color: #00ff41;
+    border-bottom: 2px solid #00ff41;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+table.docutils td {
+    border-bottom: 1px solid #333;
+    padding: 10px;
+}
+
+/* 8. Notas y Advertencias */
+div.admonition {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+div.admonition .admonition-title {
+    background-color: #222;
+    color: #00ff41;
+    border-bottom: 1px solid #333;
+    font-family: 'Orbitron', sans-serif;
+}
