@@ -59,10 +59,7 @@ class Alien:
         Returns:
             True if coordinates (x, y) are identical.
         """
-        if self.x == object_coll.x and self.y == object_coll.y:
-            return True
-
-        return False
+        return self.x == object_coll.x and self.y == object_coll.y
 
 
 def new_aliens_collection(start_positions: list[tuple[int, int]]) -> list[Alien]:
