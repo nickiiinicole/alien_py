@@ -8,8 +8,7 @@ su código original.
 Incluye la clase base abstracta :class:`AlienDecorator` y dos implementaciones:
 :class:`PersonalShield` y :class:`CombatShield`.
 """
-
-from .alien import Alien
+from alien.alien import Alien
 
 class AlienDecorator(Alien):
     """Clase base para todos los decoradores de Alien (Wrapper).
